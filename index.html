@@ -205,16 +205,16 @@
   </button>
 </form>
 
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzgPmKkO0AFpkmRAlCJDPtMW_j3y0wN5TnLXhznm8R8aXBxMGQ4V30dQHXJ24PUwi56Vg/exec'
-  const form = document.forms['Contact-Form']
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
+  <script>
+    const scriptURL = '<"https://script.google.com/macros/s/AKfycbzKxut0t5V1l-no7-NUx8zhRYPAVpQzsKdhHddjL36EZoBENRoORnqzayCBKVcb-157tQ/exec">'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 </body>
 </html>
