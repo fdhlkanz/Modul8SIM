@@ -1,0 +1,60 @@
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.8;
+  scroll-behavior: smooth;
+}
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 8rem 2rem;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.jumbotron p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+section {
+  padding: 7rem 2rem;
+}
+section h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+section p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #495057;
+}
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+}
+#about {
+  background-color: #f0f8ff;
+}
+#pendaftaran {
+  background-color: #e6ffe6;
+}
+#informasi {
+  background-color: #fff0f5;
+}
+#koleksi {
+  background-color: #f0f8ff;
+}
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
